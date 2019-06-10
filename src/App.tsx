@@ -30,7 +30,7 @@ const StockComponent: React.FC<StockProps> =
     </p>
   </>;
 
-class App extends Component {
+class App extends Component<{}, AppState> {
   state: AppState = {
     stocks: []
   };
